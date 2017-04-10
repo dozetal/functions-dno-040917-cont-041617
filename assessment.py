@@ -8,6 +8,18 @@ go below this docstring.
 
 """
 
+# Enter code for Part One here
+
+def list_of_towns(Ventura)
+
+for item in list_of_towns 
+    if item == "Ventura":
+        print True
+
+    else:
+        print False
+
+
 ###############################################################################
 
 # PART ONE: Write your own function declarations.
