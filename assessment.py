@@ -1,5 +1,4 @@
 
-
 """
 Skills function assessment.
 
@@ -8,16 +7,69 @@ go below this docstring.
 
 """
 
-# Enter code for Part One here
+# Part 1a: Where are you from?
+# Assign values to town and hometown
 
-def list_of_towns(Ventura)
+town = "Chicago"
+hometown = "Ventura"
 
-for item in list_of_towns 
-    if item == "Ventura":
+def list_of_towns(town, hometown):
+    """
+    Take a town name as a string 
+    Evaluate town name to `True` if it is your hometown, and `False` otherwise.
+
+    """
+
+    if town == hometown:
         print True
 
     else:
         print False
+
+list_of_towns(town, hometown)
+
+
+# Part 1b: What's your name?
+# Define first and last name
+
+first_name = "Michelle"
+last_name = "Obama"
+
+def first_and_last_name(first_name, last_name):
+    """
+    Concatenate and return first and last names in one string 
+
+    """
+
+    name = ((first_name) + " " + (last_name))
+
+    # Return name in usable form for Pt C
+    # uncomment the next line to confirm output
+    # print name
+    return name
+
+first_and_last_name(first_name, last_name)
+
+
+# Part 1c: Hometown Visits
+
+def neighborly_greeting(list_of_towns, Michelle, Obama):
+    """
+    Confirm whether person is from your hometown
+    If True, return first greeting
+    Else, return second greeting 
+
+    """
+    for first_and_last_name(name = ((first_name) + " " + (last_name))
+
+    if list_of_towns == True
+        print "Hi, " + name + ", we\'re from the same place!"
+
+    else:
+        print "Hi, " + name + ", I\'d like to visit " + town + "!"
+
+neighborly_greeting(list_of_towns, first_name, last_name)
+
 
 
 ###############################################################################
